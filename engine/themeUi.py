@@ -1,0 +1,16 @@
+from PyQt5 import QtGui
+
+ui_theme = QtGui.QPalette()
+ui_theme.setColor(QtGui.QPalette.Window, QtGui.QColor(40, 40, 40))
+ui_theme.setColor(QtGui.QPalette.WindowText, QtGui.QColor(240, 240, 240))
+ui_theme.setColor(QtGui.QPalette.Base, QtGui.QColor(20, 20, 20))
+ui_theme.setColor(QtGui.QPalette.AlternateBase, QtGui.QColor(75, 75, 75))
+ui_theme.setColor(QtGui.QPalette.ToolTipBase, QtGui.QColor(240, 240, 240))
+ui_theme.setColor(QtGui.QPalette.ToolTipText, QtGui.QColor(240, 240, 240))
+ui_theme.setColor(QtGui.QPalette.Text, QtGui.QColor(240, 240, 240))
+ui_theme.setColor(QtGui.QPalette.Button, QtGui.QColor(40, 40, 40))
+ui_theme.setColor(QtGui.QPalette.ButtonText, QtGui.QColor(240, 240, 240))
+ui_theme.setColor(QtGui.QPalette.BrightText, QtGui.QColor(150, 0, 0))
+ui_theme.setColor(QtGui.QPalette.Link, QtGui.QColor(40, 125, 220))
+ui_theme.setColor(QtGui.QPalette.Highlight, QtGui.QColor(40, 125, 220))
+ui_theme.setColor(QtGui.QPalette.HighlightedText, QtGui.QColor(0, 0, 0))

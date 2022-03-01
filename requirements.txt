@@ -1,0 +1,5 @@
+pygame==1.9.6
+pywin32==227
+pyautogui==0.9.48
+PyQt5==5.13.2
+Pillow==6.2.1
